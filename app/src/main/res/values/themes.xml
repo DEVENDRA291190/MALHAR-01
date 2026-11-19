@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navy">#FF0B1F3D</color>
+    <color name="screen_bg">#FFF1F3F6</color>
+
+    <style name="Theme.PrintBridge" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/navy</item>
+        <item name="android:navigationBarColor">@color/screen_bg</item>
+        <item name="android:windowBackground">@color/screen_bg</item>
+    </style>
+</resources>

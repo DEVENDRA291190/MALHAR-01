@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrintBridge</string>
+
+    <!-- Printer -->
+    <string name="section_printer">Printer</string>
+    <string name="refresh">Refresh</string>
+    <string name="bluetooth_settings">Bluetooth settings</string>
+    <string name="no_printers">No printers found. Plug the printer in with an OTG cable, or pair it in Android Bluetooth settings first (PIN is usually 0000 or 1234).</string>
+    <string name="usb_printer">USB printer</string>
+
+    <!-- Paper type -->
+    <string name="section_paper">Paper type</string>
+    <string name="paper_receipt">Receipt roll (continuous thermal paper)</string>
+    <string name="paper_receipt_desc">Plain roll, no gaps. Prints only as long as the content.</string>
+    <string name="paper_gap">Labels – gap between labels</string>
+    <string name="paper_gap_desc">Die-cut labels on a liner. Run Calibrate after loading.</string>
+    <string name="paper_mark">Labels – black mark on the back</string>
+    <string name="paper_mark_desc">Stock with a printed black bar on the reverse. Run Calibrate after loading.</string>
+
+    <!-- Roll size -->
+    <string name="section_roll">Roll size</string>
+    <string name="width_mm">Width mm</string>
+    <string name="page_mm">Page mm</string>
+    <string name="height_mm">Height mm</string>
+    <string name="gap_mm">Gap mm</string>
+    <string name="mark_mm">Mark mm</string>
+    <string name="trim_blank">Trim blank space above/below</string>
+    <string name="page_mm_hint">Page mm is only the page length offered in Chrome\'s print dialog; output is cut to the content.</string>
+    <string name="max_width">Max printable width is 104 mm.</string>
+
+    <!-- Print quality -->
+    <string name="section_quality">Print quality</string>
+    <string name="darkness_fmt">Darkness: %1$d</string>
+    <string name="speed_fmt">Speed: %1$d</string>
+    <string name="threshold_fmt">Black threshold: %1$d</string>
+    <string name="dithering">Dithering (photos / logos)</string>
+    <string name="orientation">Orientation</string>
+    <string name="portrait">Portrait</string>
+    <string name="portrait_desc">Print the page upright, exactly as in the PDF.</string>
+    <string name="landscape">Landscape</string>
+    <string name="landscape_desc">Turn the page 90° so wide pages run along the roll.</string>
+    <string name="auto">Auto</string>
+    <string name="auto_desc">Turn only if the page shape doesn\'t match the label.</string>
+    <string name="rotate_180">Rotate output 180°</string>
+    <string name="invert_bits">Invert bits (if labels print as a negative)</string>
+    <string name="offset_x">Horizontal offset (dots, 8 = 1 mm)</string>
+
+    <!-- Actions -->
+    <string name="section_actions">Actions</string>
+    <string name="test_print">Test print</string>
+    <string name="calibrate">Calibrate</string>
+    <string name="print_pdf">Print a PDF from phone…</string>
+    <string name="enable_printing">Enable PrintBridge in Android printing</string>
+
+    <!-- Status / errors -->
+    <string name="sending">Sending</string>
+    <string name="sent_to">Sent to printer %1$s</string>
+    <string name="error_fmt">Error: %1$s</string>
+    <string name="select_printer_first">Select a printer first</string>
+    <string name="printer_not_connected">Printer not connected. Check the cable or Bluetooth pairing.</string>
+    <string name="bt_permission_denied">Bluetooth permission denied</string>
+    <string name="usb_permission_granted">USB permission granted</string>
+    <string name="usb_permission_denied">USB permission denied</string>
+    <string name="usb_not_granted">USB permission not granted</string>
+    <string name="usb_write_failed">USB write failed</string>
+    <string name="usb_claim_failed">Cannot claim USB interface</string>
+    <string name="no_calibration">Receipt roll needs no calibration</string>
+    <string name="no_pdf">No PDF was received.</string>
+    <string name="reading_pdf">Reading PDF</string>
+    <string name="printing_page_fmt">Printing page %1$d of %2$d</string>
+    <string name="pdf_password">PDF is password protected</string>
+    <string name="not_pdf">That isn\'t a PDF. If it came from a website, the link may need you to be logged in.</string>
+    <string name="pdf_no_pages">The PDF has no pages</string>
+    <string name="close">Close</string>
+</resources>
